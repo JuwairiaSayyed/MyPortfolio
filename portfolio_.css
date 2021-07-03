@@ -1,0 +1,63 @@
+.box1{
+    background-color:DarkSalmon;
+    color:#503933;
+    font-size: 20px;
+    margin:0;
+    padding: 20px;
+    font-family: "Georgia", Times, serif;
+}
+.im1{
+    margin-top:1.5%;
+    margin-left:3%;
+    opacity: 0.8;
+}
+.box2{
+    background-color:#ecb9aa ;
+    color:#753f3a;
+    font-size: 17px;
+    margin-left: 40%;
+    margin-top: 3%;
+    padding: 20px;
+}
+.box3{
+    background-color:#c07764 ;
+    color:#412422;
+    font-size: 17px;
+    margin-right: 60%;
+    margin-top: 5%;
+    padding: 20px;
+}
+.box4{
+    background-color:#ecb9aa ;
+    color:#753f3a;
+    font-size: 17px;
+    margin-left: 40%;
+    margin-top: 3%;
+    padding: 20px;
+}
+body{
+    background-color: cornsilk;
+}
+.im2{
+    margin-top:1.5%;
+    margin-right:13%;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: burlywood solid 12px;
+    border-right: burlywood solid 12px;
+    
+}
+.im3{
+    margin-top:1%;
+    margin-left:10%;
+    border-left: burlywood solid 6px;
+    border-right: burlywood solid 6px;
+       
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    margin-top: 3%;
+    background-color: #C6A590;
+    color: rgb(71, 45, 45);
+  }
