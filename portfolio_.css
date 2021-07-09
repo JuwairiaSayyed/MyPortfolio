@@ -4,35 +4,37 @@
     padding: 0;
     overflow: hidden;
     background-color: #896b66;
-  }
+}
   
-  .lst1 li {
+.lst1 li {
     float: left;
-  }
+}
   
-  .lst1 li a {
+.lst1 li a {
     display: block;
     color: white;
     text-align: center;
     padding: 18px 20px;
     text-decoration: none;
-  }
-    
+    transition: all 2s;
+}  
+
 .box1{
     background-color:#cc7c6f;
     color:#503933;
     font-size: 20px;
-    margin:0;
+    margin:0.2%;
     padding: 20px;
     font-family: "Georgia", Times, serif;
 }
 
 .im0{
-    margin-top:0.2%;
+    margin-top:0.7%;
+    opacity: 0.8;
     margin-right:3%;
 }
 .im1{
-    margin-top:1.5%;
+    margin-top:-2%;
     margin-left:3%;
     opacity: 0.8;
 }
@@ -41,7 +43,7 @@
     color:#753f3a;
     font-size: 17px;
     margin-left: 40%;
-    margin-top: 3%;
+    margin-top: 7%;
     padding: 20px;
 }
 .box3{
@@ -68,11 +70,17 @@
     margin-top: 5%;
     padding: 20px;
 }
+.box2:hover, .box3:hover, .box4:hover, .box5:hover{
+    transition: 1s ease-in-out;
+    background: #ffa582d0;
+    color:#472e2d;
+    font-family: FreeMono, monospace;
+}
 body{
     background-color: cornsilk;
 }
 .im2{
-    margin-top:1.5%;
+    margin-top:-1.5%;
     margin-right:13%;
     padding-left: 8px;
     padding-right: 8px;
@@ -81,7 +89,7 @@ body{
     
 }
 .im3{
-    margin-top:3%;
+    margin-top:0%;
     margin-left:10%;
     border-left: burlywood solid 6px;
     border-right: burlywood solid 6px;
@@ -91,26 +99,13 @@ body{
     margin-right:11%;
     padding-left: 8px;
     padding-right: 8px;
-    margin-top: 6%;
+    margin-top: 0.5%;
     opacity: 0.8;
 }
 progress {
     border: none;
     width: 150px;
     height: 20px;
-    background: crimson;
-}
-  
-progress {
-    color: lightblue;
-}
-
-progress::-webkit-progress-value {
-    background: lightblue;
-  }
-  
-progress::-moz-progress-bar {
-    background: lightcolor;
 }
   
 progress::-webkit-progress-value {
@@ -128,3 +123,22 @@ footer {
     background-color: #C6A590;
     color: rgb(71, 45, 45);
 }
+
+.lst2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+.lst2 li {
+    float: left;
+  }
+  
+.lst2 li a {
+    display: block;
+    color: rgb(32, 22, 22);
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+  }
